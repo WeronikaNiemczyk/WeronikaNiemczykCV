@@ -40,6 +40,26 @@
 .contact-info i:focus {
   color: #233f5d;
 }
-/* .hobby{
+.collapsible .content {
+  display: none; /* Ukryj zawartość na początku */
+  margin-top: 10px;
+}
+
+.collapsible.active .content {
+  display: contents; /* Pokaż zawartość po kliknięciu */
+}
+
+.toggle-btn {
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* .toggle-btn:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+} */
+/* .morebtn{
     display: flex;
 } */
