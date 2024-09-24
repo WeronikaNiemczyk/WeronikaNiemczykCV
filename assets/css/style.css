@@ -120,9 +120,9 @@ header .wrapper .content-wrapper {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 90%; /* Szerokość kreski */
-  height: 0.5px; /* Grubość kreski */
-  background-color: #233f5d; /* Kolor kreski */
+  width: 90%; 
+  height: 0.5px;
+  background-color: #233f5d; 
   margin-top: 5px;
 }
 .content .title .item {
@@ -348,12 +348,12 @@ header .wrapper .content-wrapper {
   color: #233f5d;
 }
 .collapsible .content {
-  display: none; /* Ukryj zawartość na początku */
+  display: none; 
   margin-top: 10px;
 }
 
 .collapsible.active .content {
-  display: contents; /* Pokaż zawartość po kliknięciu */
+  display: contents; 
 }
 
 .toggle-btn {
